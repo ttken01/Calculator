@@ -28,24 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSoa = new System.Windows.Forms.TextBox();
+            this.txtSob = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtKetQua = new System.Windows.Forms.TextBox();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCong
             // 
-            this.button1.Location = new System.Drawing.Point(354, 309);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cong";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCong.Location = new System.Drawing.Point(552, 293);
+            this.btnCong.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(150, 45);
+            this.btnCong.TabIndex = 0;
+            this.btnCong.Text = "Cong";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // label1
             // 
@@ -67,19 +69,19 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "So b ";
             // 
-            // textBox1
+            // txtSoa
             // 
-            this.textBox1.Location = new System.Drawing.Point(217, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(485, 38);
-            this.textBox1.TabIndex = 2;
+            this.txtSoa.Location = new System.Drawing.Point(217, 64);
+            this.txtSoa.Name = "txtSoa";
+            this.txtSoa.Size = new System.Drawing.Size(485, 38);
+            this.txtSoa.TabIndex = 2;
             // 
-            // textBox2
+            // txtSob
             // 
-            this.textBox2.Location = new System.Drawing.Point(217, 137);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(485, 38);
-            this.textBox2.TabIndex = 2;
+            this.txtSob.Location = new System.Drawing.Point(217, 137);
+            this.txtSob.Name = "txtSob";
+            this.txtSob.Size = new System.Drawing.Size(485, 38);
+            this.txtSob.TabIndex = 2;
             // 
             // label3
             // 
@@ -91,14 +93,25 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Ket Qua";
             // 
-            // textBox3
+            // txtKetQua
             // 
-            this.textBox3.Location = new System.Drawing.Point(217, 205);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(485, 38);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtKetQua.Location = new System.Drawing.Point(217, 205);
+            this.txtKetQua.Name = "txtKetQua";
+            this.txtKetQua.ReadOnly = true;
+            this.txtKetQua.Size = new System.Drawing.Size(485, 38);
+            this.txtKetQua.TabIndex = 2;
+            this.txtKetQua.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // btnTru
+            // 
+            this.btnTru.Location = new System.Drawing.Point(217, 293);
+            this.btnTru.Margin = new System.Windows.Forms.Padding(6);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(150, 45);
+            this.btnTru.TabIndex = 0;
+            this.btnTru.Text = "Tru";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
             // Form1
             // 
@@ -106,13 +119,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(954, 487);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtKetQua);
+            this.Controls.Add(this.txtSob);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSoa);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTru);
+            this.Controls.Add(this.btnCong);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
@@ -124,13 +138,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSoa;
+        private System.Windows.Forms.TextBox txtSob;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtKetQua;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
