@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1c77114e-7808-4db1-b92a-f764caae0b9b" name="Admin@D45 2022-03-03 10:31:49" runUser="D45\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D45 2022-03-03 10_31_49">
+      <DeploymentItem filename="C:\Users\Admin\Desktop\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-03T10:31:49.2950000+07:00" queuing="2022-03-03T10:31:49.3120000+07:00" start="2022-03-03T10:31:49.3150000+07:00" finish="2022-03-03T10:31:51.0010000+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAddOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7">
+      <Execution id="8ab6451b-a270-46f7-8780-18f63adb39c6" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddOperator" />
+    </UnitTest>
+    <UnitTest name="TestSubOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef">
+      <Execution id="eb0e1016-4911-4b71-b7f0-f58248b63a8f" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubOperator" />
+    </UnitTest>
+    <UnitTest name="TestMulOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="c500917f-1ee6-5a9b-673a-6c41c523920e">
+      <Execution id="50486aa3-9f7c-46f8-998c-69dc9b806ed7" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMulOperator" />
+    </UnitTest>
+    <UnitTest name="TestDivByZero" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="c5d55f8e-059a-67ad-1f03-72601aa5de2a">
+      <Execution id="d5c474ea-9517-4304-a98d-cf36c28891aa" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDivByZero" />
+    </UnitTest>
+    <UnitTest name="DatabaseTest1" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="83f7ad86-e3e4-6ff6-de46-b0ef56bd2e62">
+      <Execution id="f71b619f-817a-470f-b38e-2b9bcd9485e8" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.DBTest, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DatabaseTest1" />
+    </UnitTest>
+    <UnitTest name="TestDivOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="9bca1c7c-9c85-df74-98be-226f6b87e39e">
+      <Execution id="3b249200-3726-4401-bdd2-b1d4bda4f421" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDivOperator" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef" executionId="eb0e1016-4911-4b71-b7f0-f58248b63a8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83f7ad86-e3e4-6ff6-de46-b0ef56bd2e62" executionId="f71b619f-817a-470f-b38e-2b9bcd9485e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bca1c7c-9c85-df74-98be-226f6b87e39e" executionId="3b249200-3726-4401-bdd2-b1d4bda4f421" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7" executionId="8ab6451b-a270-46f7-8780-18f63adb39c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c500917f-1ee6-5a9b-673a-6c41c523920e" executionId="50486aa3-9f7c-46f8-998c-69dc9b806ed7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5d55f8e-059a-67ad-1f03-72601aa5de2a" executionId="d5c474ea-9517-4304-a98d-cf36c28891aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="eb0e1016-4911-4b71-b7f0-f58248b63a8f" testId="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef" testName="TestSubOperator" computerName="D45" duration="00:00:00.0079517" startTime="2022-03-03T10:31:49.3210000+07:00" endTime="2022-03-03T10:31:49.4380000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb0e1016-4911-4b71-b7f0-f58248b63a8f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f71b619f-817a-470f-b38e-2b9bcd9485e8" testId="83f7ad86-e3e4-6ff6-de46-b0ef56bd2e62" testName="DatabaseTest1" computerName="D45" duration="00:00:00.0237470" startTime="2022-03-03T10:31:49.4420000+07:00" endTime="2022-03-03T10:31:49.4670000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f71b619f-817a-470f-b38e-2b9bcd9485e8">
+      <Output>
+        <DebugTrace>Executing test script...
+Sql Error: 'Database 'BookStore' does not exist. Make sure that the name is entered correctly.' (Severity 16, State 1)
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method CalculatorTester.DBTest.DatabaseTest1 threw exception: 
+System.Data.SqlClient.SqlException: Database 'BookStore' does not exist. Make sure that the name is entered correctly.</Message>
+          <StackTrace>    at Microsoft.Data.Schema.UnitTesting.ExecutionEngine.ExecuteTest(ConnectionContext ctx, String testSql, DbParameter[] tsqlParameters)
+   at Microsoft.Data.Schema.UnitTesting.DatabaseTestService.Execute(ConnectionContext scriptExecutionContext, ConnectionContext privilegedExecutionContext, DatabaseTestAction action, DbParameter[] sqlParameters)
+   at CalculatorTester.DBTest.DatabaseTest1() in C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\DBTest.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b249200-3726-4401-bdd2-b1d4bda4f421" testId="9bca1c7c-9c85-df74-98be-226f6b87e39e" testName="TestDivOperator" computerName="D45" duration="00:00:00.0000952" startTime="2022-03-03T10:31:49.4710000+07:00" endTime="2022-03-03T10:31:49.4720000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b249200-3726-4401-bdd2-b1d4bda4f421">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ab6451b-a270-46f7-8780-18f63adb39c6" testId="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7" testName="TestAddOperator" computerName="D45" duration="00:00:00.0001259" startTime="2022-03-03T10:31:49.4770000+07:00" endTime="2022-03-03T10:31:49.4780000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ab6451b-a270-46f7-8780-18f63adb39c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="50486aa3-9f7c-46f8-998c-69dc9b806ed7" testId="c500917f-1ee6-5a9b-673a-6c41c523920e" testName="TestMulOperator" computerName="D45" duration="00:00:00.0000999" startTime="2022-03-03T10:31:49.4820000+07:00" endTime="2022-03-03T10:31:49.4830000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50486aa3-9f7c-46f8-998c-69dc9b806ed7">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5c474ea-9517-4304-a98d-cf36c28891aa" testId="c5d55f8e-059a-67ad-1f03-72601aa5de2a" testName="TestDivByZero" computerName="D45" duration="00:00:00.0010190" startTime="2022-03-03T10:31:49.4870000+07:00" endTime="2022-03-03T10:31:49.4900000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5c474ea-9517-4304-a98d-cf36c28891aa">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CalculatorTester.UnitTest1.TestDivByZero did not throw expected exception System.DivideByZeroException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

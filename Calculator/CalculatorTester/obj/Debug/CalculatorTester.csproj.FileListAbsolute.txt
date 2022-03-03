@@ -5,3 +5,6 @@ C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Calculat
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.pdb
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.dll
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll.config
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.DBTest.resources
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csproj.GenerateResource.Cache
