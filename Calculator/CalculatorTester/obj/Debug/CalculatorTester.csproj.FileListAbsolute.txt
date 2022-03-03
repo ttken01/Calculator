@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.pdb
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.exe
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.pdb
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.dll
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb

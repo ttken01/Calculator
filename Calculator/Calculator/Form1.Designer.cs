@@ -36,17 +36,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.btnTru = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCong
             // 
-            this.btnCong.Location = new System.Drawing.Point(552, 293);
-            this.btnCong.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCong.Location = new System.Drawing.Point(270, 293);
+            this.btnCong.Margin = new System.Windows.Forms.Padding(6);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(150, 45);
             this.btnCong.TabIndex = 0;
             this.btnCong.Text = "Cong";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.AutoSizeChanged += new System.EventHandler(this.btnCong_Click);
             this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // label1
@@ -104,14 +107,39 @@
             // 
             // btnTru
             // 
-            this.btnTru.Location = new System.Drawing.Point(217, 293);
+            this.btnTru.Location = new System.Drawing.Point(95, 293);
             this.btnTru.Margin = new System.Windows.Forms.Padding(6);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(150, 45);
             this.btnTru.TabIndex = 0;
             this.btnTru.Text = "Tru";
             this.btnTru.UseVisualStyleBackColor = true;
-            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            this.btnTru.AutoSizeChanged += new System.EventHandler(this.btnCong_Click);
+            this.btnTru.Click += new System.EventHandler(this.btnCong_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(609, 293);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 45);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Chia";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.AutoSizeChanged += new System.EventHandler(this.btnCong_Click);
+            this.button1.Click += new System.EventHandler(this.btnCong_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(434, 293);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(150, 45);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Nhan";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.AutoSizeChanged += new System.EventHandler(this.btnCong_Click);
+            this.button2.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // Form1
             // 
@@ -125,10 +153,12 @@
             this.Controls.Add(this.txtSoa);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnTru);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCong);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -146,6 +176,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.Button btnTru;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

@@ -30,9 +30,26 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
+            Button button = (Button)sender;
             double a = double.Parse(txtSoa.Text);
-            double b = double.Parse(txtSob.Text);
-            txtKetQua.Text = (a + b).ToString();
+            double b =  double.Parse(txtSob.Text);
+            Calculation d = new Calculation(a, b);
+            double result = 0;
+            switch (button.Text) { 
+                case "Cong":
+                    result = d.Execute("+");
+                    break;
+                case "Tru":
+                    result = d.Execute("-");
+                    break;
+                case "Nhan":
+                    result = d.Execute("*");
+                    break;
+                case "Chia":
+                    result = d.Execute("/");
+                    break;
+            }
+            txtKetQua.Text = result.ToString();
         }
     }
 }

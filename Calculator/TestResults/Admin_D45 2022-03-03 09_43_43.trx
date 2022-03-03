@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42abdcae-d1bb-489f-96f0-b81328dd5220" name="Admin@D45 2022-03-03 09:43:43" runUser="D45\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D45 2022-03-03 09_43_43">
+      <DeploymentItem filename="C:\Users\Admin\Desktop\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-03T09:43:43.7670000+07:00" queuing="2022-03-03T09:43:44.4470000+07:00" start="2022-03-03T09:43:44.4920000+07:00" finish="2022-03-03T09:43:44.8750000+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestDivOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="9bca1c7c-9c85-df74-98be-226f6b87e39e">
+      <Execution id="a72d123b-426d-42bd-865b-eea19f63e727" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDivOperator" />
+    </UnitTest>
+    <UnitTest name="TestAddOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7">
+      <Execution id="3014407f-3612-4e98-ac2e-21e89014db6a" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddOperator" />
+    </UnitTest>
+    <UnitTest name="TestSubOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef">
+      <Execution id="df9b6359-a4ed-49f5-82d6-d39e8c9331ad" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubOperator" />
+    </UnitTest>
+    <UnitTest name="TestDivByZero" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="c5d55f8e-059a-67ad-1f03-72601aa5de2a">
+      <Execution id="91d5b456-9c9c-467e-aeec-3f99f8d5da01" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDivByZero" />
+    </UnitTest>
+    <UnitTest name="TestMulOperator" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="c500917f-1ee6-5a9b-673a-6c41c523920e">
+      <Execution id="9c4266dc-598c-43c7-99bf-aaac56f497ab" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest1, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMulOperator" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef" executionId="df9b6359-a4ed-49f5-82d6-d39e8c9331ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bca1c7c-9c85-df74-98be-226f6b87e39e" executionId="a72d123b-426d-42bd-865b-eea19f63e727" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7" executionId="3014407f-3612-4e98-ac2e-21e89014db6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c500917f-1ee6-5a9b-673a-6c41c523920e" executionId="9c4266dc-598c-43c7-99bf-aaac56f497ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5d55f8e-059a-67ad-1f03-72601aa5de2a" executionId="91d5b456-9c9c-467e-aeec-3f99f8d5da01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="df9b6359-a4ed-49f5-82d6-d39e8c9331ad" testId="021a4f47-24b9-fd0b-9f52-d0cab4fb3aef" testName="TestSubOperator" computerName="D45" duration="00:00:00.0270946" startTime="2022-03-03T09:43:44.4990000+07:00" endTime="2022-03-03T09:43:44.7980000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df9b6359-a4ed-49f5-82d6-d39e8c9331ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="a72d123b-426d-42bd-865b-eea19f63e727" testId="9bca1c7c-9c85-df74-98be-226f6b87e39e" testName="TestDivOperator" computerName="D45" duration="00:00:00.0000870" startTime="2022-03-03T09:43:44.8020000+07:00" endTime="2022-03-03T09:43:44.8040000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a72d123b-426d-42bd-865b-eea19f63e727">
+    </UnitTestResult>
+    <UnitTestResult executionId="3014407f-3612-4e98-ac2e-21e89014db6a" testId="a9ef0ad8-0d03-f8f0-273b-6d7ed74133a7" testName="TestAddOperator" computerName="D45" duration="00:00:00.0000805" startTime="2022-03-03T09:43:44.8070000+07:00" endTime="2022-03-03T09:43:44.8090000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3014407f-3612-4e98-ac2e-21e89014db6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c4266dc-598c-43c7-99bf-aaac56f497ab" testId="c500917f-1ee6-5a9b-673a-6c41c523920e" testName="TestMulOperator" computerName="D45" duration="00:00:00.0001351" startTime="2022-03-03T09:43:44.8120000+07:00" endTime="2022-03-03T09:43:44.8140000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c4266dc-598c-43c7-99bf-aaac56f497ab">
+    </UnitTestResult>
+    <UnitTestResult executionId="91d5b456-9c9c-467e-aeec-3f99f8d5da01" testId="c5d55f8e-059a-67ad-1f03-72601aa5de2a" testName="TestDivByZero" computerName="D45" duration="00:00:00.0270826" startTime="2022-03-03T09:43:44.8180000+07:00" endTime="2022-03-03T09:43:44.8460000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91d5b456-9c9c-467e-aeec-3f99f8d5da01">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CalculatorTester.UnitTest1.TestDivByZero did not throw expected exception System.DivideByZeroException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
