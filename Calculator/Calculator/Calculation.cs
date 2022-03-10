@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace Calculator
 {
@@ -34,5 +35,11 @@ namespace Calculator
             }
             return result;
         }
+
+        public static string getPath = Application.StartupPath;
+
+        
+
+
     }
 }

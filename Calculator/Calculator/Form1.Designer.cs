@@ -38,6 +38,7 @@
             this.btnTru = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.path = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCong
@@ -141,12 +142,22 @@
             this.button2.AutoSizeChanged += new System.EventHandler(this.btnCong_Click);
             this.button2.Click += new System.EventHandler(this.btnCong_Click);
             // 
+            // path
+            // 
+            this.path.AutoSize = true;
+            this.path.Location = new System.Drawing.Point(750, 137);
+            this.path.Name = "path";
+            this.path.Size = new System.Drawing.Size(86, 31);
+            this.path.TabIndex = 3;
+            this.path.Text = "label4";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(954, 487);
+            this.Controls.Add(this.path);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtSob);
             this.Controls.Add(this.label3);
@@ -161,6 +172,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,6 +190,7 @@
         private System.Windows.Forms.Button btnTru;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label path;
     }
 }
 

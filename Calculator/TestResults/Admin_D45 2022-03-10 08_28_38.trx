@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b88ce90e-551f-4d45-9995-bc143bc00115" name="Admin@D45 2022-03-10 08:28:38" runUser="D45\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D45 2022-03-10 08_28_38">
+      <DeploymentItem filename="C:\Users\Admin\Desktop\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-10T08:28:38.6260000+07:00" queuing="2022-03-10T08:28:38.6660000+07:00" start="2022-03-10T08:28:38.6690000+07:00" finish="2022-03-10T08:28:38.7970000+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPower0" storage="c:\users\admin\desktop\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="b9b32fcc-d01e-febb-87b3-5c75a163981b">
+      <Execution id="b20a9b8d-c9b4-4c8a-b7e0-9c45c4cc2e1c" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.UnitTest2, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower0" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b9b32fcc-d01e-febb-87b3-5c75a163981b" executionId="b20a9b8d-c9b4-4c8a-b7e0-9c45c4cc2e1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b20a9b8d-c9b4-4c8a-b7e0-9c45c4cc2e1c" testId="b9b32fcc-d01e-febb-87b3-5c75a163981b" testName="TestPower0" computerName="D45" duration="00:00:00.0069616" startTime="2022-03-10T08:28:38.6740000+07:00" endTime="2022-03-10T08:28:38.7860000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b20a9b8d-c9b4-4c8a-b7e0-9c45c4cc2e1c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

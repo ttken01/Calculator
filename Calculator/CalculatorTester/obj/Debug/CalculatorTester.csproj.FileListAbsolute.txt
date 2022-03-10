@@ -8,3 +8,4 @@ C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\Calculat
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll.config
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.DBTest.resources
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv
