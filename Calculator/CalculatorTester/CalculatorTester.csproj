@@ -50,6 +50,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cau2.cs" />
     <Compile Include="DatabaseSetup.cs" />
     <Compile Include="DBTest.cs">
       <SubType>Designer</SubType>

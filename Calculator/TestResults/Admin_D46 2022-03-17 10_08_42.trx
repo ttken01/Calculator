@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c39a8a82-98cd-4791-b828-3afdcdf4c29b" name="Admin@D46 2022-03-17 10:08:42" runUser="D46\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D46 2022-03-17 10_08_42">
+      <DeploymentItem filename="D:\KTPM\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T10:08:42.2920000+07:00" queuing="2022-03-17T10:08:42.3120000+07:00" start="2022-03-17T10:08:42.3150000+07:00" finish="2022-03-17T10:08:42.4750000+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPolynomial1" storage="d:\ktpm\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="80d2d8fd-7b6e-1a39-27ee-b161289e0c1a">
+      <Execution id="a6d68b5e-f4a5-4e34-b3fb-70ace959ee3b" />
+      <TestMethod codeBase="D:/KTPM/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.Cau2, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPolynomial1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="80d2d8fd-7b6e-1a39-27ee-b161289e0c1a" executionId="a6d68b5e-f4a5-4e34-b3fb-70ace959ee3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6d68b5e-f4a5-4e34-b3fb-70ace959ee3b" testId="80d2d8fd-7b6e-1a39-27ee-b161289e0c1a" testName="TestPolynomial1" computerName="D46" duration="00:00:00.0089943" startTime="2022-03-17T10:08:42.3540000+07:00" endTime="2022-03-17T10:08:42.4640000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6d68b5e-f4a5-4e34-b3fb-70ace959ee3b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

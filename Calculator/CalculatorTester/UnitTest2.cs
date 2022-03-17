@@ -40,10 +40,9 @@ namespace CalculatorTester
             Assert.AreEqual(Cau1.Power(x, n), ketQua);
         }
 
-        String path = Calculation.getPath.Replace("Calculator\Bin\Debug","");
         public TestContext TestContext { get; set; }
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",path+ 
-        @"CalculatorTester\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
+        @"D:\KTPM\Calculator\Calculator\CalculatorTester\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
         [TestMethod]
         public void TestWithDataSource()
         {

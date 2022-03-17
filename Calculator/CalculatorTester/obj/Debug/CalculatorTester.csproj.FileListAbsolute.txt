@@ -9,3 +9,14 @@ C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Calculat
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.DBTest.resources
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csproj.GenerateResource.Cache
 C:\Users\Admin\Desktop\Calculator\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv
+D:\KTPM\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csprojResolveAssemblyReference.cache
+D:\KTPM\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.DBTest.resources
+D:\KTPM\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.csproj.GenerateResource.Cache
+D:\KTPM\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.dll
+D:\KTPM\Calculator\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll.config
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.pdb
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.exe
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.pdb
