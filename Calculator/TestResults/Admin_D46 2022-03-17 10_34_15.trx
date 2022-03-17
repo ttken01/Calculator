@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b42d237d-bc60-42d1-bc1e-5a4fbfb432d4" name="Admin@D46 2022-03-17 10:34:15" runUser="D46\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D46 2022-03-17 10_34_15">
+      <DeploymentItem filename="D:\KTPM\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T10:34:15.8310000+07:00" queuing="2022-03-17T10:34:17.5790000+07:00" start="2022-03-17T10:34:17.5840000+07:00" finish="2022-03-17T10:34:17.7180000+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCoverToHex" storage="d:\ktpm\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="8ab5f652-15c5-f13c-c946-775341b5c83e">
+      <Execution id="5319e8ec-8c3f-4e9e-bddd-6d50fb4255e9" />
+      <TestMethod codeBase="D:/KTPM/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.Cau3_Radix, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCoverToHex" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8ab5f652-15c5-f13c-c946-775341b5c83e" executionId="5319e8ec-8c3f-4e9e-bddd-6d50fb4255e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5319e8ec-8c3f-4e9e-bddd-6d50fb4255e9" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0144042" startTime="2022-03-17T10:34:17.5910000+07:00" endTime="2022-03-17T10:34:17.7070000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5319e8ec-8c3f-4e9e-bddd-6d50fb4255e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;A&gt;. </Message>
+          <StackTrace>   at CalculatorTester.Cau3_Radix.TestCoverToHex() in D:\KTPM\Calculator\Calculator\CalculatorTester\Cau3_Radix.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

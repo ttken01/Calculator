@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="638d3c4e-16fa-4e4a-9770-d904b4c16545" name="Admin@D46 2022-03-17 10:51:21" runUser="D46\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904e1636-c7f5-45e3-b84f-b9dab1cc98be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D46 2022-03-17 10_51_21">
+      <DeploymentItem filename="D:\KTPM\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T10:51:21.1760000+07:00" queuing="2022-03-17T10:51:22.3810000+07:00" start="2022-03-17T10:51:22.3840000+07:00" finish="2022-03-17T10:51:22.7930000+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCoverToHex" storage="d:\ktpm\calculator\calculator\calculatortester\bin\debug\calculatortester.dll" id="8ab5f652-15c5-f13c-c946-775341b5c83e">
+      <Execution id="22d6e8e2-da53-4813-bc44-240da89cd8b7" />
+      <TestMethod codeBase="D:/KTPM/Calculator/Calculator/CalculatorTester/bin/Debug/CalculatorTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculatorTester.Cau3_Radix, CalculatorTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCoverToHex" />
+      <DataSource connectionString="D:\KTPM\Calculator\Calculator\CalculatorTester\Data\Cau3TestConvertData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="Cau3TestConvertData#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8ab5f652-15c5-f13c-c946-775341b5c83e" executionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.2807271" startTime="2022-03-17T10:51:22.3880000+07:00" endTime="2022-03-17T10:51:22.7810000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="5" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="bbc057b2-acff-43ea-af6b-67aba89909ff" parentExecutionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0270418" startTime="2022-03-17T10:51:22.7330000+07:00" endTime="2022-03-17T10:51:22.7680000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a4fcefea-2a91-4ae8-9cfa-4bf04dfda3e4" parentExecutionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0000365" startTime="2022-03-17T10:51:22.7680000+07:00" endTime="2022-03-17T10:51:22.7680000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d78ef6a1-7ae2-4756-bd7e-6e55092ac455" parentExecutionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0000160" startTime="2022-03-17T10:51:22.7680000+07:00" endTime="2022-03-17T10:51:22.7680000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f4f778fc-2d5e-4535-a808-9773e6d479e5" parentExecutionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0000098" startTime="2022-03-17T10:51:22.7680000+07:00" endTime="2022-03-17T10:51:22.7680000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="502ccf60-9852-4dbb-b75c-d80a7e72b83b" parentExecutionId="22d6e8e2-da53-4813-bc44-240da89cd8b7" testId="8ab5f652-15c5-f13c-c946-775341b5c83e" testName="TestCoverToHex" computerName="D46" duration="00:00:00.0000095" startTime="2022-03-17T10:51:22.7680000+07:00" endTime="2022-03-17T10:51:22.7680000+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d6e8e2-da53-4813-bc44-240da89cd8b7" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

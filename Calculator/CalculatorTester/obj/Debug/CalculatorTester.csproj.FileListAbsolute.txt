@@ -20,3 +20,4 @@ D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.dll
 D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\CalculatorTester.pdb
 D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.exe
 D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Calculator.pdb
+D:\KTPM\Calculator\Calculator\CalculatorTester\bin\Debug\Data\Cau3TestConvertData.csv
